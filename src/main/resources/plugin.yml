@@ -1,0 +1,12 @@
+main: "com.activation.build.ActivationBuild"
+name: "Activation-Build"
+version: "1.0"
+api-version: "1.20"
+libraries:
+  - "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+
+commands:
+  spawn:
+    aliases:
+      - "스폰"
+    usage: "/<command>"
